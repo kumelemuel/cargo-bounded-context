@@ -96,7 +96,7 @@ pub mod persistence;
 "#,
 
         // ===== DEFAULT =====
-        _ => "// module\n",
+        _ => "",
     };
 
     fs::write(mod_rs, content.trim_start()).unwrap();
